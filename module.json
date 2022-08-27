@@ -1,0 +1,32 @@
+{
+"name": "kibbles-spellblade",
+"title": "Kibbles' Spellblade",
+"description": "The Foundry module for Kibbles' spellblade.",
+"author": "KibblesTasty",
+"version": "0.2.0",
+"minimumCoreVersion": "0.6.0",
+"compatibleCoreVersion": "9",
+"manifest": "https://github.com/KibblesTasty/kibbles-spellblade/releases/download/archive/module.json",
+"download": "https://github.com/KibblesTasty/kibbles-spellblade/releases/download/archive/kibbles-spellblade-main.zip",
+"keywords" : [
+			"classes",
+			"subclasses",
+			"spellblade"
+		],
+"packs": [
+			{
+			"name": "kibbles-spellblade",
+			"label": "Kibbles' Spellblade",
+			"system": "dnd5e",
+			"path": "packs/kibbles-spellblade.db",
+			"entity": "Item",
+			"module": "kibbles-spellbladed"
+			}
+		],
+"authors": [
+			{
+			  "name": "KibblesTasty",
+			  "url": "https://kthomebrew.com"
+			}
+		]
+}
